@@ -4,7 +4,7 @@
 This project handles user card status through defined API endpoints.
 
 ## Setup Instructions
-1. Clone the repository.
+1. Clone the repository. `git clone https://github.com/Kannan112/zywa-machine-test.git`
 2. Navigate to the project directory.
 3. Run `docker-compose up` to start the services.
 4. Access `http://localhost:8080/signup` for signup and `http://localhost:8080/get_card_status` for card status checking.
