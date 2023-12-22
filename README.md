@@ -13,6 +13,4 @@ This project handles user card status through defined API endpoints.
 - `/signup`: POST request to register users.
 - `/get_card_status`: GET request to check card status.
 
-## Dependencies
-- Docker
 
