@@ -1,7 +1,6 @@
 package handler
 
 import (
-	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -86,9 +85,7 @@ func (c *ZywaHandler) GetCardDetails(ctx *gin.Context) {
 		})
 		return
 	}
-	fmt.Println(
-		"test",
-	)
+
 	ctx.JSON(http.StatusOK, res.Response{
 		StatusCode: 200,
 		Message:    "CardSample",
