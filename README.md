@@ -1,4 +1,4 @@
-# zywa-machine-test
+# zywa-machine-test Clean code principle
 
 ## Description
 This project handles user card status through defined API endpoints.
@@ -15,4 +15,4 @@ This project handles user card status through defined API endpoints.
 
 ## Dependencies
 - Docker
-- [List any other dependencies or tools required]
+
