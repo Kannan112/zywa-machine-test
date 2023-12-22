@@ -1,7 +1,7 @@
-FROM golang:1.20.4-alpine3.18 AS build-stage
+FROM golang:1.21.4-alpine3.18 AS build-stage
 WORKDIR /home/app/
 COPY ./ /home/app/
-RUN mkdir -p /home/build
+RUN mkdir -p /home/b
 RUN go mod download
 RUN go build -v -o /home/build/api ./cmd/api
     
